@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroProduto.css">
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+    <header>
+        teste header
+    </header>
+    <main>
+        <h1>Cadastro de Produtos</h1>
+
+        <div class="formProduto">
+            <form >
+                <fieldset>
+                    <label for="name">Nome do Produto:</label>
+                    <input type="text" name="nome" id="nome">
+                </fieldset>
+
+                <fieldset>
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" name="quantidade" id="quantidade">
+
+                    <label for="preco">Preço:</label>
+                    <input type="number" name="preco" id="preco">
+
+                    <label for="imagem">Imagem:</label>
+                    <input type="file" name="imagem" id="imagem">
+                </fieldset>
+
+                <fieldset>
+                    <label for="descricao">Descrição:</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                    <label for="categoria">Categoria:</label>
+                    <select name="categoria" id="categoria">
+                        <option value="">roupa</option>
+                        <option value="">utensilios</option>
+                        <option value="">blusa</option>
+                    </select>
+
+                    
+                    <label for="tag">Tag:</label>
+                    <select name="tag" id="tag">
+                        <option value="">preto</option>
+                        <option value="">rosa</option>
+                        <option value="">verde</option>
+                    </select>
+                </fieldset>
+
+                <button>Salvar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

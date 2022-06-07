@@ -27,6 +27,11 @@ h2{
     color: #000000;
 }
 
+form label{
+    margin: 10px;
+  }
+
+  
 form input{
     width: 450px;
     height: 35px;
@@ -37,6 +42,7 @@ form input{
     margin-top: 2%;
     text-indent: 10px;
 }
+
 
 form input:focus{
     transform: scale(1.01);
